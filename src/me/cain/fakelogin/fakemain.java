@@ -31,6 +31,7 @@ String pluginname = "FakeLogin";
 				if(args.length !=0) {
 					player.sendMessage("/flogin {message}");
 				}
+					else {
 			getServer().broadcastMessage(ChatColor.YELLOW + args[0] + " joined the game.");
 			return true;
 			}
@@ -38,6 +39,7 @@ String pluginname = "FakeLogin";
 			if(args.length !=0) {
 				player.sendMessage("/flogout {message}");
 			}
+				else {
 			getServer().broadcastMessage(ChatColor.YELLOW + args[0] + " left the game.");
 			return true;
 			}
@@ -49,6 +51,11 @@ String pluginname = "FakeLogin";
 		}
 		return false;
 }
+		return false;
+}
+        return false;
+		}
+		
 }
 		
 // Created by CainFoool
