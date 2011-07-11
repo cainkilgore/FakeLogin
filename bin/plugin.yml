@@ -1,0 +1,12 @@
+name: FakeLogin
+version: 0.1
+author: CainFoool
+main: me.cain.fakelogin.fakemain
+commands:
+   flogin:
+      description: Fake a login message
+      usage: 
+      
+   flogout:
+      description: Fake a logout message
+      usage:
