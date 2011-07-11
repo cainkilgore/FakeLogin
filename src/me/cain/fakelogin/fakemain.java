@@ -26,8 +26,8 @@ String pluginname = "FakeLogin";
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String [] args) {
 		Player player = (Player) sender;
 		if (player.isOp()) {
-            if (sender instanceof Player) {
 			if(label.equalsIgnoreCase("flogin")) {
+				if (sender instanceof Player) {
 				if(args.length !=0) {
 					player.sendMessage("/flogin {message}");
 				}
